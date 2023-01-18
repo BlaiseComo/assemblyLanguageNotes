@@ -1,0 +1,16 @@
+- 5 Great Realities:
+    - 1. Ints are not Integers, Floats are not Reals 
+        - Ex. Is x^2 >= 0 , Floats: Yes, Ints: Not Always
+        - Ex. Is (x+y)+z == x+(y+z) , Ints: Yes, Floats: Not Always
+    - 2. Got to know assembly
+        - Understanding assembly is key to machine level execution
+            - Behavior of programs in presence of bugs
+            - Tuning program performance
+            - Implementing system software
+            - Creating / fighting malware
+    - 3. Memory Matters
+        - Random access memory is an unphysical abstraction
+        - Adapting program to characteristics of memory system can lead to major speed improvements
+- Computer Arithmetic:
+    - Does not generate random values
+    - Cannot assume all "usual" mathematical properties
