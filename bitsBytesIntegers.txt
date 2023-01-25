@@ -3,3 +3,20 @@
 - 2^4 = 16, 4-bits, Decimal Range, 0-15, 4-bits = w
 - 2^8 = 256, 8-bits, Decimal Range, 0-255, 8-bits = w
 - 2^w - 1 = Umax
+- A&B = 1 when both A=1 and B=1
+- A|B = 1 when either A=1 or B=1
+- ~A = 1 when A=0
+- A^B when either A=1 or B=1, but not both
+- Left Shift: x << y
+    - Shift bit vector x left y positions
+        - Throw away extra bits on Left
+    - Fill with 0's on right
+- Right Shift: x >> y
+    - Shift bit vector x right y positions
+        - Throw away extra bits on Right
+    - Logical Shift     
+        - Fill with 0's on left
+    - Arithmetic Shift  
+        - Replicate most significant bit on left
+- << 1 results in a multiplication by 2
+- >> 1 results in a division by 2
