@@ -20,3 +20,7 @@
         - Replicate most significant bit on left
 - << 1 results in a multiplication by 2
 - >> 1 results in a division by 2
+- Steps to convert a positive signed int to a negative, 
+    - NOR the bits
+    - Add 1 to the bits
+- 
