@@ -1,0 +1,23 @@
+- Int x86 Processors
+    - Complex instruction set computer
+        - Many different instructions with many different formats
+- Architecture:
+    - The parts of a processor design that one needs to understand or write assembly/machine code.
+- Microarchitecture:
+    - Implementation of the Architecture
+- Programmer-Visible State
+    - PC: Program Counter
+        - Address of next instruction
+    - Register File
+        - Heavily used program data
+    - Condition Codes
+        - Store status information about most recent arithmetic or logical operation
+        - Used for conditional branching
+    - Memory
+        - Byte addressable array
+        - Code and user data
+- Transfer control
+    - Unconditional jumps to/from procedures
+    - Conditional branches
+- Transfer data between memory and register
+- 
